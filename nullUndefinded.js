@@ -18,4 +18,11 @@ console.log(produto)
 produto.preco = undefined // Evite ATRIBUIR UNDIFINED
 
 console.log(!!produto.preco)
+    // delete produto.preco
+console.log(produto)
+
+produto.preco = null // Sem preco
+
+console.log(!!produto.preco)
+
 console.log(produto)
